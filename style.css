@@ -1,0 +1,119 @@
+body{
+    background-color: #2b2531;
+    color: white;
+    text-shadow: 2px 2px #6432974b;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+img{
+
+}
+
+.content{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header{
+    padding: 32px; 
+    font-size: 56px;
+
+    width: 600px;
+    height: 64px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    animation-duration: 2s;
+    animation-name: headeranim;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headeranim {
+    0%   {transform: scale(0.95, 0.95);}
+    50%  {transform: scale(1.1, 1.1);}
+    100%  {transform: scale(0.95, 0.95);}
+  }
+
+.go_left{
+    float: left;
+}
+
+.go_right{ 
+    float: right;
+}
+
+#showcase{
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+.skill{
+    width: 1200px;
+    height: 400px;
+}
+
+.skill_text{
+    width: 720px;
+    height: min-content;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.skill_cont{
+    border-radius: 12px;
+    box-shadow: 0 0 3px 2px #91a0b1;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    transform: scale(0.95, 0.95);
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.skill_cont:hover{
+    transform: scale(1.05, 1.05);
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#gfx{
+}
+
+#eng{
+}
+
+#rus{
+}
+
+#rus_overlay{
+    width: 360;
+    height: 360;
+    background-color: pink;
+}
+
+.ru2{
+    border-radius: 12px;
+    box-shadow: 0 0 3px 2px #91a0b1;
+
+    opacity: 0.5;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    transform: scale(0.95, 0.95);
+
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
