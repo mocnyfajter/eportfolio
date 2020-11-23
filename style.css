@@ -5,8 +5,15 @@ body{
     font-family: "Lucida Console", Courier, monospace;
 }
 
-img{
+footer{
+    height: 48x;
+    padding: 12px;
+    font-size: 24px;
 
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+
+    border-radius: 12px;
 }
 
 .content{
@@ -59,7 +66,7 @@ img{
 .skill_text{
     width: 720px;
     height: min-content;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     padding: 40px;
 }
